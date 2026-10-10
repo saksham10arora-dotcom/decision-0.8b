@@ -1,0 +1,5 @@
+torch
+transformers>=5.19
+peft>=0.21
+datasets
+# MLX path on Apple Silicon: pip install mlx-lm>=0.32

@@ -1,0 +1,16 @@
+{
+  "id": "nerfsaksham/decision-model-qwen35",
+  "title": "decision-model-qwen35",
+  "code_file": "run.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": ["nerfsaksham/decision-model-data"],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "machine_shape": "NvidiaTeslaT4"
+}

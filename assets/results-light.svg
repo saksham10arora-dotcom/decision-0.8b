@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="490" viewBox="0 0 900 490" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="900" height="490" rx="14" fill="#fcfcfb"/>
+<text x="32" y="44" font-size="21" font-weight="650" fill="#0b0b0b">Fine-tuning fixed the order bias more than the accuracy</text>
+<text x="32" y="70" font-size="14" fill="#52514e">Qwen3.5-0.8B-Base before and after one LoRA epoch (3,000 examples, 14 min on a free Kaggle T4)</text>
+<circle cx="39" cy="99" r="7" fill="#86b6ef"/>
+<text x="54" y="104" font-size="14" fill="#0b0b0b">Base model</text>
+<circle cx="189" cy="99" r="7" fill="#1c5cab"/>
+<text x="204" y="104" font-size="14" fill="#0b0b0b">Fine-tuned</text>
+<line x1="410.0" y1="114" x2="410.0" y2="424" stroke="#e8e7e3" stroke-width="1"/>
+<text x="410.0" y="446" font-size="12" fill="#52514e" text-anchor="middle" style="font-variant-numeric: tabular-nums">0%</text>
+<line x1="510.0" y1="114" x2="510.0" y2="424" stroke="#e8e7e3" stroke-width="1"/>
+<text x="510.0" y="446" font-size="12" fill="#52514e" text-anchor="middle" style="font-variant-numeric: tabular-nums">25%</text>
+<line x1="610.0" y1="114" x2="610.0" y2="424" stroke="#e8e7e3" stroke-width="1"/>
+<text x="610.0" y="446" font-size="12" fill="#52514e" text-anchor="middle" style="font-variant-numeric: tabular-nums">50%</text>
+<line x1="710.0" y1="114" x2="710.0" y2="424" stroke="#e8e7e3" stroke-width="1"/>
+<text x="710.0" y="446" font-size="12" fill="#52514e" text-anchor="middle" style="font-variant-numeric: tabular-nums">75%</text>
+<line x1="810.0" y1="114" x2="810.0" y2="424" stroke="#e8e7e3" stroke-width="1"/>
+<text x="810.0" y="446" font-size="12" fill="#52514e" text-anchor="middle" style="font-variant-numeric: tabular-nums">100%</text>
+<text x="32" y="142" font-size="15" font-weight="550" fill="#0b0b0b">Accuracy</text>
+<text x="32" y="161" font-size="12" fill="#52514e">300 held-out questions, higher is better</text>
+<line x1="734.0" y1="144" x2="751.2" y2="144" stroke="#c9c8c3" stroke-width="2"/>
+<circle cx="734.0" cy="144" r="7" fill="#86b6ef" stroke="#fcfcfb" stroke-width="2"/>
+<text x="720.0" y="149" font-size="14" font-weight="400" fill="#52514e" text-anchor="end">81%</text>
+<circle cx="751.2" cy="144" r="7" fill="#1c5cab" stroke="#fcfcfb" stroke-width="2"/>
+<text x="765.2" y="149" font-size="14" font-weight="650" fill="#0b0b0b" text-anchor="start">85.3%</text>
+<text x="32" y="204" font-size="15" font-weight="550" fill="#0b0b0b">Yes/no accuracy, “No” listed first</text>
+<text x="32" y="223" font-size="12" fill="#52514e">higher is better</text>
+<line x1="658.0" y1="206" x2="738.0" y2="206" stroke="#c9c8c3" stroke-width="2"/>
+<circle cx="658.0" cy="206" r="7" fill="#86b6ef" stroke="#fcfcfb" stroke-width="2"/>
+<text x="644.0" y="211" font-size="14" font-weight="400" fill="#52514e" text-anchor="end">62%</text>
+<circle cx="738.0" cy="206" r="7" fill="#1c5cab" stroke="#fcfcfb" stroke-width="2"/>
+<text x="752.0" y="211" font-size="14" font-weight="650" fill="#0b0b0b" text-anchor="start">82%</text>
+<text x="32" y="266" font-size="15" font-weight="550" fill="#0b0b0b">Probability on A/B/C/D at all</text>
+<text x="32" y="285" font-size="12" fill="#52514e">the rest goes to other words, higher is better</text>
+<line x1="586.0" y1="268" x2="809.6" y2="268" stroke="#c9c8c3" stroke-width="2"/>
+<circle cx="586.0" cy="268" r="7" fill="#86b6ef" stroke="#fcfcfb" stroke-width="2"/>
+<text x="572.0" y="273" font-size="14" font-weight="400" fill="#52514e" text-anchor="end">44%</text>
+<circle cx="809.6" cy="268" r="7" fill="#1c5cab" stroke="#fcfcfb" stroke-width="2"/>
+<text x="823.6" y="273" font-size="14" font-weight="650" fill="#0b0b0b" text-anchor="start">99.9%</text>
+<text x="32" y="328" font-size="15" font-weight="550" fill="#0b0b0b">Answers that flip when reordered</text>
+<text x="32" y="347" font-size="12" fill="#52514e">all 300 questions, lower is better</text>
+<line x1="502.0" y1="330" x2="444.8" y2="330" stroke="#c9c8c3" stroke-width="2"/>
+<circle cx="502.0" cy="330" r="7" fill="#86b6ef" stroke="#fcfcfb" stroke-width="2"/>
+<text x="516.0" y="335" font-size="14" font-weight="400" fill="#52514e" text-anchor="start">23%</text>
+<circle cx="444.8" cy="330" r="7" fill="#1c5cab" stroke="#fcfcfb" stroke-width="2"/>
+<text x="430.8" y="335" font-size="14" font-weight="650" fill="#0b0b0b" text-anchor="end">8.7%</text>
+<text x="32" y="390" font-size="15" font-weight="550" fill="#0b0b0b">Yes/no answers that flip when reordered</text>
+<text x="32" y="409" font-size="12" fill="#52514e">lower is better</text>
+<line x1="594.0" y1="392" x2="466.0" y2="392" stroke="#c9c8c3" stroke-width="2"/>
+<circle cx="594.0" cy="392" r="7" fill="#86b6ef" stroke="#fcfcfb" stroke-width="2"/>
+<text x="608.0" y="397" font-size="14" font-weight="400" fill="#52514e" text-anchor="start">46%</text>
+<circle cx="466.0" cy="392" r="7" fill="#1c5cab" stroke="#fcfcfb" stroke-width="2"/>
+<text x="452.0" y="397" font-size="14" font-weight="650" fill="#0b0b0b" text-anchor="end">14%</text>
+</svg>
