@@ -119,7 +119,7 @@ On a Mac with MLX: `python train.py` (top layer only, see above), then `python e
 
 ## Files
 
-| | |
+| File | What it does |
 |---|---|
 | `decide.py` | ask it anything with 2 to 4 options |
 | `adapter/` | the trained LoRA weights (fp16) |

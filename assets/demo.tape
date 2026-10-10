@@ -16,5 +16,8 @@ Sleep 500ms
 Type "python decide.py --demo"
 Sleep 600ms
 Enter
+# skip the ~4s model load so the GIF goes straight from the command to the decisions
+Hide
 Wait+Screen@60s /forward pass, \d+ ms\s*\n\s*\n?.*\$/
-Sleep 6s
+Show
+Sleep 8s
