@@ -13,6 +13,9 @@
 
 </div>
 
+**Weights on Hugging Face:** [nerfsaksham/decision-0.8b](https://huggingface.co/nerfsaksham/decision-0.8b) (LoRA adapter, loads with `PeftModel.from_pretrained`).
+
+
 A decision model does not chat. You give it a situation, a question and fixed options. It reads them **once** and returns a probability for every option. No text generation, no output parsing, no retries. One forward pass, about 90 ms on an M5 Mac.
 
 ```bash
