@@ -131,3 +131,7 @@ On a Mac with MLX: `python train.py` (top layer only, see above), then `python e
 ## License
 
 Code: MIT. The adapter is a derivative of [Qwen3.5-0.8B-Base](https://huggingface.co/Qwen/Qwen3.5-0.8B-Base) (Apache 2.0). Training data is not redistributed: `prep_data.py` rebuilds it from the original datasets under their own licenses.
+
+---
+
+Built by [Saksham Arora](https://saksham.digital) · [saksham.digital](https://saksham.digital)
